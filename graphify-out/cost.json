@@ -5,8 +5,22 @@
       "input_tokens": 0,
       "output_tokens": 0,
       "files": 12973
+    },
+    {
+      "date": "2026-07-09T00:30:49.429875+00:00",
+      "input_tokens": 45000,
+      "output_tokens": 7800,
+      "files": 13390,
+      "note": "Full repo build (--update was missing baseline). AST: 141,933 nodes / 457,642 edges (free, no LLM). Semantic: 769 nodes / 797 edges via 19 subagents. Code: 12,977. Docs/papers: 412 (skipped 6,160 images per user, 120 audio queue prompts)."
+    },
+    {
+      "date": "2026-07-09T03:25:21.502912+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 19675,
+      "note": "--update (no manifest baseline available, effectively full rebuild; AST .js broken in 0.9.10, lost 28K .js nodes; merge deduplicated 69 nodes; used 412 cached semantic)"
     }
   ],
-  "total_input_tokens": 0,
-  "total_output_tokens": 0
+  "total_input_tokens": 45000,
+  "total_output_tokens": 7800
 }

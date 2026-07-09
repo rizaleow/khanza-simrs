@@ -4,3 +4,6 @@ graphify-out/graph.html
 graphify-out/manifest.json
 graphify-out/cache/
 graphify-out/.graphify_*
+# synthesized workaround graphs (regenerate with graphify-synthesize-v2.py)
+graphify-out/graph_synthesized.json
+graphify-out/graph_synthesized_v2.json
